@@ -1,0 +1,21 @@
+body {
+    font-family: Century Gothic;
+    background-image: url(3.jpg);
+    background-color: #4B0082;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+div, img {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.all {
+	width: 90%;
+	height: 450px;
+	margin: 0px 470px;
+}
