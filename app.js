@@ -14,8 +14,8 @@
 	{		
 		i = i + 1;
 		var inputstring = $("input").val();
-		$("ul").append($("<li><span></span></li>").attr("id", i));
-		$("#" + i).text(inputstring);
+		$("ul").append($("<li></li>").attr("id", i));
+		$("#" + i).text(<span>inputstring</span>);
 		$("#" + i).append("<button>Удалить</button>").click(function() 
 		{
 			$(this).remove();
